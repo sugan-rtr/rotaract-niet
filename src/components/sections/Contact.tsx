@@ -9,7 +9,7 @@ const contactDetails = [
   { icon: FiPhone, label: "Phone", value: "+91 94868 01406", href: "tel:+919486801406" },
   { icon: FiMapPin, label: "Address", value: "Nehru Gardens, Nehru College Road, T.M Palayam, Coimbatore, Tamil Nadu 641105", href: "#" },
   { icon: FiInstagram, label: "Instagram", value: "@rotaract_club_of_niet", href: "https://www.instagram.com/rotaract_club_of_niet?igsh=MTN1ZXp5dDN0cGVuOQ==" },
-  { icon: FiLinkedin, label: "LinkedIn", value: "Rotaract Club NIET", href: "https://www.linkedin.com/in/rotaract-club-of-niet-52a769216" },
+  { icon: FiLinkedin, label: "LinkedIn", value: "Rotaract Club of NIET", href: "https://www.linkedin.com/in/rotaract-club-of-niet-52a769216" },
 ];
 
 export default function Contact() {
