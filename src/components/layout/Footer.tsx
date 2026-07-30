@@ -40,17 +40,35 @@ export default function Footer() {
         </div>
 
         <div>
-          <h3 className="text-sm font-semibold tracking-wide text-white/90 uppercase">Rotary Network</h3>
-          <ul className="mt-4 space-y-3">
-            <li><a href="https://www.rotary.org" target="_blank" rel="noreferrer" className="text-sm text-[var(--color-text-secondary)] hover:text-[var(--color-accent)] transition-colors">Rotary International</a></li>
-            <li><a href="https://www.rotaract.org" target="_blank" rel="noreferrer" className="text-sm text-[var(--color-text-secondary)] hover:text-[var(--color-accent)] transition-colors">Rotaract Global</a></li>
-          </ul>
+          <h3 className="text-sm font-semibold tracking-wide text-white/90 uppercase">Developed By</h3>
+          <div className="mt-4 flex items-center gap-4">
+            <span className="font-bold tracking-wide text-white/90">Sugan K</span>
+            <div className="flex items-center gap-3">
+              <a 
+                href="https://www.linkedin.com/" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                aria-label="Sugan K LinkedIn" 
+                className="text-[#0a66c2] hover:text-[#004182] transition-colors text-xl"
+              >
+                <FiLinkedin />
+              </a>
+              <a
+                href="mailto:"
+                aria-label="Sugan K Email"
+                className="text-[var(--color-text-secondary)] hover:text-[var(--color-accent)] transition-colors text-xl"
+              >
+                <FiMail />
+              </a>
+            </div>
+          </div>
         </div>
       </div>
 
       <div className="border-t border-white/5">
-        <div className="mx-auto max-w-6xl px-6 md:px-10 py-6 flex items-center justify-between text-xs text-[var(--color-text-muted)]">
-          <span>&copy; {year} Rotaract Club NIET. All rights reserved.</span>
+        <div className="mx-auto max-w-6xl px-6 md:px-10 py-6 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-[var(--color-text-muted)]">
+          <span className="text-center md:text-left">&copy; {year} Rotaract Club NIET. All rights reserved.</span>
+
           <a
             href="#"
             className="flex items-center gap-2 hover:text-[var(--color-accent)] transition-colors"

@@ -132,6 +132,7 @@ export const eventsTimeline = [
 export const galleryCategories = ["All", "Community", "Leadership", "Meetings", "Service", "Celebrations"] as const;
 
 export const galleryItems = [
+  { image: "/images/gallery/10.jpeg", category: "Community", alt: "Spending time with the elderly at the old age home" },
   { image: "/images/gallery/1.jpg", category: "Service", alt: "Volunteers packing donation kits" },
   { image: "/images/gallery/2.jpg", category: "Meetings", alt: "Weekly board meeting" },
   { image: "/images/gallery/3.jpg", category: "Community", alt: "Rural education class in session" },
