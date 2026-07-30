@@ -94,7 +94,7 @@ def make_placeholder(path, label, size):
     tw, th = bbox[2] - bbox[0], bbox[3] - bbox[1]
     draw.text(((w - tw) / 2, (h - th) / 2 - 6), label, fill=(255, 255, 255), font=font)
 
-    sub = "ROTARACT NIET"
+    sub = "ROTARACT CLUB OF NIET"
     sub_font = get_font(max(11, int(font_size * 0.42)))
     bbox2 = draw.textbbox((0, 0), sub, font=sub_font)
     stw = bbox2[2] - bbox2[0]

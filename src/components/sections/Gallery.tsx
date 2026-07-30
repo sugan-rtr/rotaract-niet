@@ -50,6 +50,7 @@ export default function Gallery() {
                 alt={item.alt}
                 width={480}
                 height={340}
+                unoptimized
                 className="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-[var(--color-primary)]/0 group-hover:bg-[var(--color-primary)]/20 transition-colors" />
@@ -80,7 +81,7 @@ export default function Gallery() {
               className="relative max-w-3xl w-full aspect-video"
               onClick={(e) => e.stopPropagation()}
             >
-              <Image src={lightbox} alt="Gallery preview" fill className="object-contain" />
+              <Image src={lightbox} alt="Gallery preview" fill unoptimized className="object-contain" />
             </motion.div>
           </motion.div>
         )}

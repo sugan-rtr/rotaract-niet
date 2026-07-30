@@ -34,8 +34,8 @@ export const aboutPillars = [
 ];
 
 export const president = {
-  name: "Marcia F",
-  role: "President, Rotaract Club NIET",
+  name: "Rtr.Marcia F",
+  role: "President, Rotaract Club of NIET",
   quote:
     "Leadership is not about being remembered for a positionit's about creating a legacy through service. My vision for this year is simple: Together We Lead, We Grow, We Last. Together, we'll inspire change, empower one another, and build a Rotaract journey that leaves a lasting impact on every life we touch.",
   photo: "/images/board/president.jpg",
@@ -85,7 +85,7 @@ export const featuredProjects = [
     date: "July 2025",
     location: "Yamuna Expressway Green Belt",
     category: "Environment",
-    image: "/images/projects/tree-plantation.jpg",
+    image: "/images/projects/tree-plantation.JPG",
     excerpt: "500 saplings planted with the Forest Department, each tagged and tracked for a year of survival monitoring.",
   },
   {
@@ -147,7 +147,7 @@ export const galleryItems = [
 export const testimonials = [
   { name: "Priya Malhotra", role: "Member, 2nd Year", quote: "I walked in shy and left running a 40-person team. Rotaract gave me the room to fail safely and try again.", type: "Member" },
   { name: "Dr. Sanjay Mehta", role: "Faculty Advisor", quote: "The discipline this club runs projects with rivals any professional NGO I've worked alongside.", type: "Faculty" },
-  { name: "Rtn. Vikram Chadha", role: "Rotary Club of Greater Noida", quote: "Rotaract NIET is one of the most consistent, well-organised clubs we partner with in the district.", type: "Rotarian" },
+  { name: "Rtn. Vikram Chadha", role: "Rotary Club of Greater Noida", quote: "Rotaract Club of NIET is one of the most consistent, well-organised clubs we partner with in the district.", type: "Rotarian" },
   { name: "Neha Agarwal", role: "CSR Lead, Sponsor Partner", quote: "Every rupee we've given this club has come back as a measurable, documented outcome.", type: "Sponsor" },
 ];
 

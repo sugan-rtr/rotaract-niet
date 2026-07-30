@@ -12,8 +12,8 @@ export default function Footer() {
         <div className="md:col-span-2">
           <a href="#" className="flex items-center gap-2 font-display font-semibold text-xl text-white">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/images/logo.png" alt="Rotaract NIET Logo" className="w-8 h-8 rounded-full" />
-            Rotaract&nbsp;NIET
+            <img src="/images/logo.png" alt="Rotaract Club of NIET Logo" className="w-8 h-8 rounded-full" />
+            Rotaract&nbsp;Club of NIET
           </a>
           <p className="mt-4 max-w-sm text-sm text-[var(--color-text-secondary)] leading-relaxed">
             The Rotaract Club of NIET — service, leadership, and fellowship for
@@ -44,11 +44,11 @@ export default function Footer() {
           <div className="mt-4 flex items-center gap-4">
             <span className="font-bold tracking-wide text-white/90">Sugan K</span>
             <div className="flex items-center gap-3">
-              <a 
-                href="https://www.linkedin.com/" 
-                target="_blank" 
-                rel="noopener noreferrer" 
-                aria-label="Sugan K LinkedIn" 
+              <a
+                href="https://www.linkedin.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Sugan K LinkedIn"
                 className="text-[#0a66c2] hover:text-[#004182] transition-colors text-xl"
               >
                 <FiLinkedin />
