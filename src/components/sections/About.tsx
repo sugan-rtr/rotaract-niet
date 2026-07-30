@@ -31,7 +31,7 @@ export default function About() {
             <SectionHeading
               eyebrow="About Rotaract"
               title="A global network, run entirely by students."
-              description="Rotaract is Rotary International's network for young adults aged 18–30, built around four pillars. At NIET, that means students designing, funding, and running real service projects — not just attending them."
+              description="Rotaract is Rotary International's network for young adults aged 18+, built around four pillars. At NIET, that means students designing, funding, and running real service projects — not just attending them."
             />
 
             <div className="mt-10 grid sm:grid-cols-2 gap-5">
