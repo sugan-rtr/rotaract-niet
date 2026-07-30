@@ -133,15 +133,15 @@ export const galleryCategories = ["All", "Community", "Leadership", "Meetings", 
 
 export const galleryItems = [
   { image: "/images/gallery/10.jpeg", category: "Community", alt: "Spending time with the elderly at the old age home" },
-  { image: "/images/gallery/1.jpg", category: "Service", alt: "Volunteers packing donation kits" },
-  { image: "/images/gallery/2.jpg", category: "Meetings", alt: "Weekly board meeting" },
-  { image: "/images/gallery/3.jpg", category: "Community", alt: "Rural education class in session" },
-  { image: "/images/gallery/4.jpg", category: "Celebrations", alt: "Annual awards night" },
-  { image: "/images/gallery/5.jpg", category: "Leadership", alt: "Leadership summit workshop" },
-  { image: "/images/gallery/6.jpg", category: "Service", alt: "Tree plantation drive" },
+  { image: "/images/gallery/1.JPG", category: "Service", alt: "Volunteers packing donation kits" },
+  { image: "/images/gallery/2.JPG", category: "Meetings", alt: "Weekly board meeting" },
+  { image: "/images/gallery/3.JPG", category: "Community", alt: "Rural education class in session" },
+  { image: "/images/gallery/4.JPG", category: "Celebrations", alt: "Annual awards night" },
+  { image: "/images/gallery/5.JPG", category: "Leadership", alt: "Leadership summit workshop" },
+  { image: "/images/gallery/6.JPG", category: "Service", alt: "Tree plantation drive" },
   { image: "/images/gallery/7.jpg", category: "Community", alt: "Blood donation camp" },
-  { image: "/images/gallery/8.jpg", category: "Celebrations", alt: "Induction week welcome" },
-  { image: "/images/gallery/9.jpg", category: "Meetings", alt: "Committee planning session" },
+  { image: "/images/gallery/8.JPG", category: "Celebrations", alt: "Induction week welcome" },
+  { image: "/images/gallery/9.JPG", category: "Meetings", alt: "Committee planning session" },
 ];
 
 export const testimonials = [
