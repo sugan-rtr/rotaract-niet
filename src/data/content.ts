@@ -41,6 +41,14 @@ export const president = {
   photo: "/images/board/president.jpg",
 };
 
+export const secretary = {
+  name: "Rtr. Varun Das V",
+  role: "Secretary, Rotaract Club of NIET",
+  quote:
+    "Service is not just an act, it's a culture we build together. Our focus this year is on organizing impactful projects and fostering a strong sense of community within our club and beyond.",
+  photo: "/images/board/secretary.JPG",
+};
+
 export const boardMembers = [
   { name: "Rtr. Marcia F", role: "Club President", photo: "/images/board/president.jpg", linkedin: "https://www.linkedin.com/in/marcia-fece718333?utm_source=share_via&utm_content=profile&utm_medium=member_android", instagram: "https://www.instagram.com/marciaafred", email: "rtr.marciaf.3206@gmail.com" },
   { name: "Rtr. Rahul K", role: "Immediate Past President", photo: "/images/board/ipp.png", linkedin: "https://www.linkedin.com/in/rahul-k-3b2bba31a", instagram: "https://www.instagram.com/_.__r_a_h_u_l_._", email: "rtr.rahulkracniet@gmail.com" },
@@ -72,6 +80,14 @@ export const avenuesOfService = [
 ];
 
 export const featuredProjects = [
+  {
+    title: "Aarohan - To Rise",
+    date: "August 01, 2026",
+    location: "Seminar Hall I, NIET",
+    category: "Club Service",
+    image: "/images/projects/aarohan.png",
+    excerpt: "11th Installation Ceremony of the Rotaract Club of NIET, installing Rtr. Marcia F as President for the year 2026-27.",
+  },
   {
     title: "Blood Donation Drive",
     date: "March 2026",
@@ -124,7 +140,7 @@ export const featuredProjects = [
 
 export const eventsTimeline = [
   { date: "July 2026", title: "Tree Plantation", description: "Successfully planted saplings to contribute to a greener environment.", image: "/images/projects/tree-plantation.JPG" },
-  { date: "Upcoming", title: "Coming Soon", description: "Stay tuned for our next exciting event!", image: "/images/events/loading.png" },
+  { date: "August 01, 2026", title: "Aarohan - To Rise", description: "11th Installation Ceremony of the Rotaract Club of NIET.", image: "/images/projects/aarohan.png" },
   { date: "Upcoming", title: "Coming Soon", description: "Stay tuned for our next exciting event!", image: "/images/events/loading.png" },
   { date: "Upcoming", title: "Coming Soon", description: "Stay tuned for our next exciting event!", image: "/images/events/loading.png" },
 ];

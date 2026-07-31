@@ -1,6 +1,6 @@
 import Hero from "@/components/sections/Hero";
 import About from "@/components/sections/About";
-import PresidentMessage from "@/components/sections/PresidentMessage";
+import LeadershipMessages from "@/components/sections/LeadershipMessages";
 import BoardMembers from "@/components/sections/BoardMembers";
 import AvenuesOfService from "@/components/sections/AvenuesOfService";
 import EventsTimeline from "@/components/sections/EventsTimeline";
@@ -14,7 +14,7 @@ export default function Home() {
     <>
       <Hero />
       <About />
-      <PresidentMessage />
+      <LeadershipMessages />
       <BoardMembers />
       <AvenuesOfService />
       <EventsTimeline />
